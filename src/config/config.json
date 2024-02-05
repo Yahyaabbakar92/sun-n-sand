@@ -1,47 +1,51 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "Sun 'n' Sand Holiday Resort | Hotel and Resort in Malawi",
+    "base_url": "https://sunnsandmw.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
-    "logo_width": "150",
-    "logo_height": "27",
-    "logo_text": "Nextplate"
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/sun-n-sand-logo.png",
+    "logo_darkmode": "/images/sun-n-sand-logo.png",
+    "logo_width": "90",
+    "logo_height": "80",
+    "logo_text": "Sun 'n' Sand logo"
   },
 
   "settings": {
-    "search": true,
+    "search": false,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "system",
-    "pagination": 2,
-    "summary_length": 200,
-    "blog_folder": "blog"
+    "pagination": 3,
+    "pagination_list": 4,
+    "summary_length": 150,
+    "blog_folder": "blog",
+    "rooms_folder": "rooms",
+    "conf_rooms_folder": "confRooms"
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by Techmine"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/nextplate"
+    "label": "Make a Reservation",
+    "link": "/contact"
   },
 
   "disqus": {
-    "enable": true,
+    "enable": false,
     "shortname": "themefisher-template",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Sun 'n' Sand",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_description": "Discover the epitome of luxury and relaxation at Sun 'n' Sand, a 5-star resort located in Mangochi, Malawi. Enjoy breathtaking views of Lake Malawi, unparalleled hospitality, and book your stay with us. Experience the best of resorts in Malawi with Sun 'n' Sand.",
+    "meta_keywords": "lake malawi, sun 'n' sand resort, retreat, southern lake malawi, southern lake malawi accommodation, lake malawi villas, hotels, resorts, Malawi, Mangochi, 5 Star hotels, Lake Malawi, hotels in Malawi, Hotels in Mangochi, resorts in malawi, resorts in mangochi, lake Malawi resorts"
   }
 }
