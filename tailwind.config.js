@@ -28,6 +28,7 @@ module.exports = {
     "./src/layouts/**/*.{js,ts,jsx,tsx}",
     "./src/content/**/*.{md,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   safelist: [{ pattern: /^swiper-/ }],
   darkMode: "class",
@@ -45,6 +46,24 @@ module.exports = {
     },
     extend: {
       colors: {
+        fontColor: "#233F80",
+        fontColorHover: "#7D8FBA",
+        primaryColor: "#E58524",
+        primaryColorHover: "#ed9844",
+        secondaryColor: "#CDDAEE",
+        secondaryColorHover: "#779ed1",
+        accentColor: "#960382",
+        accentColorHover: "#af0e97",
+        backgroundColor: "#FFFFFF",
+        sectionBackgroundColor: "#fef9f4",
+        primaryCardBackgroundColor: "#FAE6D6",
+        secondaryCardBackgroundColor: "#EEF2F8",
+        "button-primary": theme.colors.default.theme_color.btn_primary,
+        "button-primary-hover":
+          theme.colors.default.theme_color.btn_primary_hover,
+        "button-secondary": theme.colors.default.theme_color.btn_secondary,
+        "button-secondary-hover":
+          theme.colors.default.theme_color.btn_secondary_hover,
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
         dark: theme.colors.default.text_color.dark,
@@ -85,6 +104,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("flowbite/plugin"),
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
     require("tailwind-bootstrap-grid")({
