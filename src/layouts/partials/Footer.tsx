@@ -12,7 +12,7 @@ const Footer = () => {
   const { copyright } = config.params;
 
   return (
-    <footer className="bg-theme-light dark:bg-darkmode-theme-light">
+    <footer className="bg-backgroundColor dark:bg-darkmode-theme-light">
       <div className="container">
         <div className="row items-center py-10">
           <div className="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="mb-8 text-center lg:col-6 lg:mb-0">
             <ul>
               {menu.footer.map((menu) => (
-                <li className="m-3 inline-block" key={menu.name}>
+                <li className="m-3 inline-block text-lg text-fontColor hover:text-fontColorHover" key={menu.name}>
                   <Link href={menu.url}>{menu.name}</Link>
                 </li>
               ))}
@@ -33,8 +33,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-border py-7 dark:border-darkmode-border">
-        <div className="container text-center text-light dark:text-darkmode-light">
-          <p dangerouslySetInnerHTML={markdownify(copyright)} />
+        <div className="container text-center text-fontColor dark:text-darkmode-light">
+          <p className="text-lg" dangerouslySetInnerHTML={markdownify(copyright)} />
         </div>
       </div>
     </footer>

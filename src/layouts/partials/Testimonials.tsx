@@ -4,7 +4,7 @@ import ImageFallback from "@/helpers/ImageFallback";
 import { markdownify } from "@/lib/utils/textConverter";
 import { Testimonial } from "@/types";
 import "swiper/css";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 interface PageData {
@@ -28,9 +28,10 @@ const Testimonials = ({ data }: { data: PageData }) => {
               <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
                 <h2
                   dangerouslySetInnerHTML={markdownify(data.frontmatter.title)}
-                  className="mb-4"
+                  className="mb-4 text-fontColor"
                 />
                 <p
+                  className="text-lg text-fontColor"
                   dangerouslySetInnerHTML={markdownify(
                     data.frontmatter.description!,
                   )}
@@ -38,9 +39,11 @@ const Testimonials = ({ data }: { data: PageData }) => {
               </div>
               <div className="col-12">
                 <Swiper
-                  modules={[Autoplay, Pagination]}
+                  modules={[Autoplay, Pagination, Navigation]}
                   pagination={{ clickable: true }}
+                  navigation={true}
                   loop={true}
+                  loopAdditionalSlides={2}
                   centeredSlides={true}
                   autoplay={{
                     delay: 2500,
@@ -59,8 +62,8 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   {data.frontmatter.testimonials.map(
                     (item: Testimonial, index: number) => (
                       <SwiperSlide key={index}>
-                        <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
-                          <div className="text-dark dark:text-white">
+                        <div className="rounded-lg bg-secondaryCardBackgroundColor px-7 py-10 dark:bg-darkmode-theme-light">
+                          <div className="text-accentColor dark:text-white">
                             <svg
                               width="33"
                               height="20"
@@ -75,7 +78,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             </svg>
                           </div>
                           <blockquote
-                            className="mt-8"
+                            className="mt-8 text-fontColor"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
                           <div className="mt-11 flex items-center">
@@ -89,15 +92,9 @@ const Testimonials = ({ data }: { data: PageData }) => {
                               />
                             </div>
                             <div className="ml-4">
-                              <h3
+                              <h5
                                 dangerouslySetInnerHTML={markdownify(item.name)}
-                                className="h5 font-primary font-semibold"
-                              />
-                              <p
-                                dangerouslySetInnerHTML={markdownify(
-                                  item.designation,
-                                )}
-                                className="text-dark dark:text-white"
+                                className="text-fontColor font-semibold"
                               />
                             </div>
                           </div>

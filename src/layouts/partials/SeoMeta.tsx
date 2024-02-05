@@ -9,6 +9,7 @@ const SeoMeta = ({
   meta_title,
   image,
   description,
+  keywords,
   canonical,
   noindex,
 }: {
@@ -16,10 +17,11 @@ const SeoMeta = ({
   meta_title?: string;
   image?: string;
   description?: string;
+  keywords?: string;
   canonical?: string;
   noindex?: boolean;
 }) => {
-  const { meta_image, meta_author, meta_description } = config.metadata;
+  const { meta_image, meta_author, meta_description, meta_keywords } = config.metadata;
   const { base_url } = config.site;
   const pathname = usePathname();
 
@@ -51,6 +53,12 @@ const SeoMeta = ({
         content={plainify(
           meta_title ? meta_title : title ? title : config.site.title,
         )}
+      />
+
+      {/* og-keywords */}
+      <meta
+        property="keywords"
+        content={plainify(keywords ? keywords : meta_keywords)}
       />
 
       {/* og-description */}
