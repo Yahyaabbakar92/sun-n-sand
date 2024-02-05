@@ -12,7 +12,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .header {
-  @apply bg-body py-6 dark:bg-darkmode-body;
+  @apply bg-transparent backdrop-blur-xl py-3 dark:bg-darkmode-body;
 }
 
 // navbar items
@@ -36,7 +36,7 @@ input#nav-toggle:checked ~ #nav-menu {
 // }
 
 .nav-link {
-  @apply text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 font-semibold transition lg:px-2 lg:py-3;
+  @apply block p-3 font-semibold text-dark transition hover:text-primary dark:text-darkmode-dark lg:px-2 lg:py-3;
 }
 
 .nav-dropdown {
@@ -75,5 +75,23 @@ input#nav-toggle:checked ~ #nav-menu {
     span {
       @apply lg:left-4;
     }
+  }
+}
+
+// search style
+.search-icon {
+  @apply cursor-pointer p-2 text-xl text-dark hover:text-primary dark:text-darkmode-light;
+}
+
+.search-modal {
+  @apply invisible absolute left-0 right-0 top-0 z-10 h-10 bg-white opacity-0 transition dark:bg-darkmode-theme-light md:h-full;
+  .form-input {
+    @apply h-full w-full border-0 text-lg;
+  }
+  .search-close {
+    @apply absolute right-2 top-1/2 -translate-y-1/2 p-3 text-h4;
+  }
+  &.open {
+    @apply visible opacity-100;
   }
 }
