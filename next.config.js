@@ -5,7 +5,21 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: config.base_path !== "/" ? config.base_path : "",
   trailingSlash: config.site.trailing_slash,
-  output: 'standalone',
+  output: "standalone",
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "gspqgpzyhdhinyvtyugx.supabase.co",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
