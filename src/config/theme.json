@@ -2,6 +2,10 @@
   "colors": {
     "default": {
       "theme_color": {
+        "btn_primary": "#98076d",
+        "btn_primary_hover": "#7f0059",
+        "btn_secondary": "#e47e10",
+        "btn_secondary_hover": "#c96a04",
         "primary": "#121212",
         "body": "#fff",
         "border": "#eaeaea",

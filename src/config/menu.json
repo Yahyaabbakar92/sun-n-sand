@@ -9,46 +9,42 @@
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Rooms",
+      "url": "/rooms"
     },
     {
-      "name": "Pages",
+      "name": "Events",
+      "url": "/events"
+    },
+    {
+      "name": "Services",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "Restaurants and Bars",
+          "url": "/restaurants-&-bars"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Conference Rooms",
+          "url": "/conference-rooms"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
+          "name": "Recreation and Activites",
+          "url": "/recreation-&-activities"
         }
       ]
+    },
+    {
+      "name": "Gallery",
+      "url": "/gallery"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
     }
   ],
   "footer": [
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"
