@@ -1,27 +1,27 @@
 ---
 enable: true
-title: "What Users Are Saying About Nextplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Nextplate."
+title: "What Our Guests Are Saying About Us"
+description: "Don't just take our word for it - hear from some of our satisfied guests!"
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
+  - name: "Madu Mihirika"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "This is the best place in Malawi to enjoy your holidays. Rooms are extremely clean. Environmental is completely green and shady. Staff is very polite and friendly.  I have been to Sun and Sand holiday resort more than ten times and it has never disappointed me"
 
-  - name: "Marvin McKinney"
+  - name: "Sheila Gelinas"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Huge resort with rooms to suit every budget, for family or couples  with a number of restaurants and outdoor pool to chill at for the entire family"
 
-  - name: "Marvin McKinney"
+  - name: "Sajini Poojary"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Spacious property. Beautiful view of the lake. Clean beach. Well maintained chalets."
 
-  - name: "Marvin McKinney"
+  - name: "Siobhan Green"
     designation: "Web Designer"
     avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+    content: "Great food, lovely view. My kids loved the pool."
 ---
