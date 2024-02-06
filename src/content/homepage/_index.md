@@ -1,53 +1,26 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
-  image: "/images/banner.png"
+  title: "Lakeview Serenity. Sun 'n' Sand Resort"
+  content: "Embrace the Essence of Tranquility at Lake Malawi's Finest Hotel. Sun 'n' Sand Resort Beckons You to Unwind in Unrivaled Luxury and Serenity."
+  image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/room_surrounded_by_palm_trees.jpg?t=2024-01-08T09%3A11%3A28.805Z"
+  image2: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/girl_smiling_with_camel_on_beach.jpg"
+  image3: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/man_rowing_boat_on_lake_during_sunset.jpg?t=2024-01-08T12%3A05%3A32.805Z"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Check Out More Rooms"
+    link: "/rooms"
 
-# Features
-features:
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+# About
+about:
+  title: "Discover Our History"
+  content: "Takulandirani - Welcome to Sun 'n' Sand Holiday Resort, your haven for affordable luxury and premier hospitality in Mangochi, Malawi. Founded in 1992 by Mr. Abdul Rashid Suleman, Chairman of Siku Group Of Companies, our beachfront hotel boasts 282 spacious rooms. Revel in the pure well-being of our Olympic-sized swimming pool and chic conference rooms. From our humble start with six cottages, we've blossomed into one of the largest resorts on the southern lakeshore of Lake Malawi. Immerse yourself in an unforgettable experience, where each moment becomes a celebration of affordable luxury and genuine hospitality."
 
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+# Rooms
+rooms:
+  title: "Top-Rated Suites"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+# Services
+services:
+  title: "Explore Our Resort Facilities"
 ---
