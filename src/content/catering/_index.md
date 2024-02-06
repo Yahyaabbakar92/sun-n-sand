@@ -2,7 +2,7 @@
 title: "Restaurants & Bars"
 meta_title: "Fine Dining at Sun 'n' Sand Resort | Restaurants, Bars, and Cafes"
 description: "Explore culinary delights and refreshing atmospheres at Sun 'n' Sand Resort. From La Mirage Restaurant's diverse menu to Ng'ona Pool Bar's tropical refreshments and Belle View Bar's African elegance, indulge in a variety of dining experiences. Enjoy casual vibes with stunning Lake Malawi views at our Lakeview Coffee Shop. Discover a perfect blend of fine dining and relaxation on the shores of Lake Malawi."
-image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/restaurantAndBarsPage/people_seated_at_restaurant_at_night.jpg?t=2024-01-08T13%3A49%3A24.803Z"
+image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/restaurantAndBarsPage/laMirageRestaurant/outside-of-restaurant-with-people-having-dinner.jpg"
 alt: "people seated at restaurant at night"
 
 # Restaurant
