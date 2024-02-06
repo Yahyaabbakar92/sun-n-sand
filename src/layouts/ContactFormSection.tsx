@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useEffect, useState } from 'react';
 import { useForm, useWatch } from 'react-hook-form';
 import { v4 as uuidv4 } from 'uuid';
@@ -128,14 +127,14 @@ export default function ContactForm() {
                             />
                             {errors.fullname && (
                                 <div className='mt-1 text-red-600'>
-                                    <small>{errors.fullname.message}</small>
+                                    <small>{errors.fullname?.message?.toString()}</small>
                                 </div>
                             )}
                         </div>
 
                         {/* Honeypot Field */}
                         <div className="space-y-2">
-                            <input type="checkbox" name="botcheck" id='botcheck' className="hidden" style={{ display: 'none' }} {...register('botcheck')} />
+                            {/* <input type="checkbox" name="botcheck" id='botcheck' className="hidden" style={{ display: 'none' }} {...register('botcheck')} /> */}
                         </div>
 
                         {/* Email Field */}
@@ -161,7 +160,7 @@ export default function ContactForm() {
                             />
                             {errors.email && (
                                 <div className='mt-1 text-red-600'>
-                                    <small>{errors.email.message}</small>
+                                    <small>{errors.email?.message?.toString()}</small>
                                 </div>
                             )}
                         </div>
@@ -195,7 +194,7 @@ export default function ContactForm() {
                                 </select>
                                 {errors.code && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.code.message}</small>
+                                        <small>{errors.code?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -224,7 +223,7 @@ export default function ContactForm() {
                                 />
                                 {errors.phone && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.phone.message}</small>
+                                        <small>{errors.phone?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -252,7 +251,7 @@ export default function ContactForm() {
                                 />
                                 {errors.checkInDate && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.checkInDate.message}</small>
+                                        <small>{errors.checkInDate?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -276,7 +275,7 @@ export default function ContactForm() {
                                 />
                                 {errors.checkOutDate && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.checkOutDate.message}</small>
+                                        <small>{errors.checkOutDate?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -304,7 +303,7 @@ export default function ContactForm() {
                                 </select>
                                 {errors.rooms && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.rooms.message}</small>
+                                        <small>{errors.rooms?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -334,7 +333,7 @@ export default function ContactForm() {
                                 />
                                 {errors.numberOfRooms && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.numberOfRooms.message}</small>
+                                        <small>{errors.numberOfRooms?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -368,7 +367,7 @@ export default function ContactForm() {
                                 />
                                 {errors.adults && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.adults.message}</small>
+                                        <small>{errors.adults?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
@@ -398,7 +397,7 @@ export default function ContactForm() {
                                 />
                                 {errors.children && (
                                     <div className='mt-1 text-red-600'>
-                                        <small>{errors.children.message}</small>
+                                        <small>{errors.children?.message?.toString()}</small>
                                     </div>
                                 )}
                             </div>
