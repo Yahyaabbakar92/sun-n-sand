@@ -1,4 +1,3 @@
-import config from "@/config/config.json";
 import { getListPage } from "@/lib/contentParser";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
