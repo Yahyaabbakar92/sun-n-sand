@@ -1,11 +1,12 @@
-import SearchModal from "@/components/SearchModal";
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
-import TwSizeIndicator from "@/helpers/TwSizeIndicator";
+import { Suspense } from "react";
+import Loading from "./loading";
 import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
+import SmoothScrolling from "@/components/SmoothScrolling";
 
 export default function RootLayout({
   children,
@@ -48,19 +49,19 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href={`https://fonts.googleapis.com/css2?family=${pf}${
-            sf ? "&family=" + sf : ""
-          }&display=swap`}
+          href={`https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
+            }&display=swap`}
           rel="stylesheet"
         />
       </head>
 
       <body suppressHydrationWarning={true}>
-        <TwSizeIndicator />
+        {/* <TwSizeIndicator /> */}
         <Providers>
           <Header />
-          <SearchModal />
-          <main>{children}</main>
+          <Suspense fallback={<Loading />}>
+            <SmoothScrolling>{children}</SmoothScrolling>
+          </Suspense>
           <Footer />
         </Providers>
       </body>
