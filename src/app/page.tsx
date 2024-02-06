@@ -6,7 +6,7 @@ import Testimonials from "@/partials/Testimonials";
 import { Button } from "@/types";
 import RoomCard from "@/components/RoomCard";
 import config from "@/config/config.json";
-import { sortByDate } from "@/lib/utils/sortFunctions";
+import { sortByDateRooms } from "@/lib/utils/sortFunctions";
 import { RoomDetails } from "@/types";
 const { rooms_folder, pagination } = config.settings;
 import ServicesCard from "@/components/ServicesCard";
@@ -31,7 +31,7 @@ const Home = () => {
     services: { title: string; info: string };
   } = frontmatter;
   const roomsIndex: RoomDetails[] = getSinglePage(rooms_folder);
-  const sortedRooms = sortByDate(roomsIndex);
+  const sortedRooms = sortByDateRooms(roomsIndex);
   const currentRooms = sortedRooms.slice(0, pagination);
   const servicesIndex: Services[] = getSinglePage("services");
 
