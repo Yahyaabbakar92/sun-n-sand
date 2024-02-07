@@ -4,8 +4,8 @@ banner:
   title: "Lakeview Serenity. Sun 'n' Sand Resort"
   content: "Embrace the Essence of Tranquility at Lake Malawi's Finest Hotel. Sun 'n' Sand Resort Beckons You to Unwind in Unrivaled Luxury and Serenity."
   image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/room_surrounded_by_palm_trees.jpg?t=2024-01-08T09%3A11%3A28.805Z"
-  image2: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/girl_smiling_with_camel_on_beach.jpg"
-  image3: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/man_rowing_boat_on_lake_during_sunset.jpg?t=2024-01-08T12%3A05%3A32.805Z"
+  image2: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/view-of-sun-setting-on-the-beach.jpg"
+  image3: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/drone-view-of-pool-area.jpg?t=2024-02-07T17%3A55%3A28.994Z"
   button:
     enable: true
     label: "Check Out More Rooms"

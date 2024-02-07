@@ -38,8 +38,8 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="pt-14 relative">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${banner.image3}')`, opacity: 0.4 }}></div>
+      <section className="pt-14 pb-6 relative">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${banner.image3}')`, opacity: 0.7 }}></div>
         <div className="container relative z-10">
           <div className="lg:flex justify-between">
             {/* Banner Content and Button on the Left */}
