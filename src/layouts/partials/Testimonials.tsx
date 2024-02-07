@@ -43,7 +43,6 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   pagination={{ clickable: true }}
                   navigation={true}
                   loop={true}
-                  loopAdditionalSlides={2}
                   centeredSlides={true}
                   autoplay={{
                     delay: 2500,
