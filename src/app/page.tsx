@@ -11,9 +11,9 @@ import { RoomDetails } from "@/types";
 const { rooms_folder, pagination } = config.settings;
 import ServicesCard from "@/components/ServicesCard";
 import { Services } from "@/types";
-import PhotoGallery from "@/components/PhotoGallery";
 import Link from "next/link";
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
+import HomePagePhotoGallery from "@/components/HomePagePhotoGallery";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -138,12 +138,12 @@ const Home = () => {
       </section>
 
       {/* Gallery Section */}
-      {/* <div className="bg-gradient-to-t from-sectionBackgroundColor to-white border-b border-border">
+      <div className="bg-gradient-to-t from-sectionBackgroundColor to-white border-b border-border">
         <div className="container mt-24">
           <ScrollCardAnimation>
             <h2 className="mb-16 text-center text-fontColor">Our Visual Showcase</h2>
-            <PhotoGallery />
-            <div className="flex justify-center items-center py-14">
+            <HomePagePhotoGallery />
+            <div className="flex justify-center items-center pb-14 pt-4">
               <Link
                 className="btn btn-primary btn-md"
                 href={"/contact"}
@@ -153,7 +153,7 @@ const Home = () => {
             </div>
           </ScrollCardAnimation>
         </div>
-      </div> */}
+      </div>
     </>
   );
 };
