@@ -23,7 +23,6 @@ const Event = ({ params }: { params: { single: string } }) => {
     const event = events.filter((event) => event.slug === params.single)[0];
     const { frontmatter } = event;
     const { title, meta_title, description, image, info } = frontmatter;
-    console.log(frontmatter);
 
     return (
         <>
