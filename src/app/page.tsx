@@ -24,11 +24,13 @@ const Home = () => {
     about,
     rooms,
     services,
+    gallery,
   }: {
     banner: { title: string; image: string; image2: string; image3: string; content?: string; button?: Button };
     about: { title: string; content?: string };
     rooms: { title: string };
     services: { title: string; info: string };
+    gallery: { images: any }
   } = frontmatter;
   const roomsIndex: RoomDetails[] = getSinglePage(rooms_folder);
   const sortedRooms = sortByDateRooms(roomsIndex);
@@ -142,7 +144,7 @@ const Home = () => {
         <div className="container mt-24">
           <ScrollCardAnimation>
             <h2 className="mb-16 text-center text-fontColor">Our Visual Showcase</h2>
-            <HomePagePhotoGallery />
+            <HomePagePhotoGallery data={gallery} />
             <div className="flex justify-center items-center pb-14 pt-4">
               <Link
                 className="btn btn-primary btn-md"

@@ -23,4 +23,19 @@ rooms:
 # Services
 services:
   title: "Explore Our Resort Facilities"
+
+# Gallery
+gallery:
+  images:
+    - url: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/selfCateringChalets/inside-view-of-kitchen-with-stove-microwave-kitchenware.jpg?t=2024-02-02T20%3A23%3A22.866Z"
+      alt: "inside view of kitchen with stove microwave kitchenware"
+
+    - url: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/selfCateringChalets/inside-view-of-kitchen-with-stove-microwave-kitchenware.jpg?t=2024-02-02T20%3A23%3A22.866Z"
+      alt: "inside view of kitchen with stove microwave kitchenware"
+
+    - url: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/selfCateringChalets/inside-view-of-kitchen-with-stove-microwave-kitchenware.jpg?t=2024-02-02T20%3A23%3A22.866Z"
+      alt: "inside view of kitchen with stove microwave kitchenware"
+
+    - url: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/selfCateringChalets/inside-view-of-kitchen-with-stove-microwave-kitchenware.jpg?t=2024-02-02T20%3A23%3A22.866Z"
+      alt: "inside view of kitchen with stove microwave kitchenware"
 ---
