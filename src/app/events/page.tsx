@@ -2,7 +2,7 @@ import { getListPage, getSinglePage } from "@/lib/contentParser";
 import SeoMeta from "@/partials/SeoMeta";
 import { Events } from "@/types";
 import Image from "next/image";
-import image1 from "public/images/image-placeholder.png"
+import image1 from "public/images/front-view-of-reception-entrance-at-night.jpg"
 import EventsCard from "@/components/EventsCard";
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
 
@@ -22,11 +22,11 @@ const EventsPage = () => {
             <div className="bg-gradient-to-t from-sectionBackgroundColor to-white border-b border-border">
                 <div className="rounded-lg relative">
                     <Image
-                        className="mx-auto mb-6"
+                        className="mx-auto mb-6 opacity-40"
                         src={image1}
                         width={1500}
                         height={1500}
-                        alt="Hero image"
+                        alt="front view of reception entrance at night"
                     />
                     <h1
                         className="mb-6 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-fontColor"

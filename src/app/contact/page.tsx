@@ -6,7 +6,8 @@ import { FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaClock } from "react-icons/fa";
 import Image from "next/image";
-import image1 from "public/images/image-placeholder.png"
+import image1 from "public/images/close-up-flowers-around-fountain.jpg"
+import image2 from "public/images/view-of-beach-and-lake-at-sunset.jpg"
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
 import ContactForm from "@/layouts/ContactFormSection";
 
@@ -25,11 +26,11 @@ const Contact = async () => {
       />
       <div className="rounded-lg relative">
         <Image
-          className="mx-auto mb-6"
+          className="mx-auto mb-6 opacity-40"
           src={image1}
           width={1500}
           height={1500}
-          alt="Hero image"
+          alt="close up flowers around fountain"
         />
         <h1
           className="mb-6 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-fontColor"
@@ -49,10 +50,10 @@ const Contact = async () => {
                 </ul>
                 <Image
                   className="mb-6 mt-8 rounded-lg"
-                  src={image1}
+                  src={image2}
                   width={600}
                   height={300}
-                  alt="Hero image"
+                  alt="view of beach and lake at sunset"
                 />
                 <p className="text-lg leading-8 mt-8 italic text-fontColor">We aim to respond to emails within 24 hours. Please check your spam folder if our response is not found in your inbox. For conference, group, or wedding bookings, email our reservations team directly using the listed contact details.</p>
               </div>

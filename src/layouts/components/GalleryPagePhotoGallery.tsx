@@ -7,7 +7,6 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
-import image from 'public/images/image-placeholder.png'
 
 const GalleryPagePhotoGallery = ({ data }: any) => {
     const { images } = data
@@ -22,7 +21,7 @@ const GalleryPagePhotoGallery = ({ data }: any) => {
                         plugins={[lgThumbnail, lgZoom]}
                     >
                         <ImageFallback
-                            className="mx-auto rounded-lg transform transition-all duration-300 hover:scale-105"
+                            className="mx-auto my-4 rounded-lg transform transition-all duration-300 hover:scale-105"
                             src={image.url}
                             width={500}
                             height={500}

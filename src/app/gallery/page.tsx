@@ -18,7 +18,7 @@ const Gallery = () => {
                     src={galleryPage.frontmatter.gallery.image}
                     width={1500}
                     height={1500}
-                    alt="close up of flowers with view of hall"
+                    alt="aerial view of paddle boats jetski and boat on the lake"
                 />
                 <h1
                     className="mb-6 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-fontColor"

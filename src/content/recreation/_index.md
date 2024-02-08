@@ -2,7 +2,7 @@
 title: "Recreation & Actitvites"
 meta_title: "Discover Exciting Activities | Sun 'n' Sand Resort in Mangochi, Malawi"
 description: "Immerse yourself in the vibrant world of activities and adventure at Sun 'n' Sand Resort in Mangochi, Malawi. From delightful camel rides and scenic boat trips to exhilarating water slides, our resort offers a hub of fun-filled experiences by the shores of Lake Malawi. Tailored for maximum enjoyment, each activity promises unforgettable moments, creating lasting memories for the entire family. Explore the diverse array of offerings and dive into a journey of joy and adventure in the heart of Malawi's resort paradise."
-image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/recreationActivitiesPage/swimming_pool_view.jpg?t=2024-01-09T13%3A33%3A30.604Z"
+image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/recreationActivitiesPage/swimming_pool_view.jpg?t=2024-02-08T21%3A02%3A49.039Z"
 alt: "swimming pool view"
 video: "https://joy1.videvo.net/videvo_files/video/free/video0467/large_watermarked/_import_61516692993d77.04238324_preview.mp4"
 content: "Sun 'n' Sand presents a plethora of engaging activities, from delightful camel rides and scenic boat trips to exhilarating water slides crafted for kids. Our resort is a hub of fun-filled experiences, ensuring unforgettable moments for every family member. Dive into a world of excitement where each activity is tailored for maximum enjoyment, creating lasting memories that resonate with the charm of Sun 'n' Sand's vibrant ambiance. Explore the diverse array of offerings, promising not just recreation but an immersive journey of joy and adventure for the entire family."
