@@ -6,6 +6,8 @@ import GalleryPagePhotoGallery from "@/components/GalleryPagePhotoGallery";
 
 const Gallery = () => {
     const galleryPage = getListPage("gallery/_index.md");
+    const { frontmatter } = galleryPage;
+    const { gallery }: { gallery: { images: any } } = frontmatter
 
     return (
         <>
@@ -26,7 +28,7 @@ const Gallery = () => {
                 <section className="container mt-10 pb-10">
                     <ScrollCardAnimation>
                         <p className="text-lg mt-12 pb-12 leading-10 text-fontColor">Explore the gallery and let the vibrant snapshots tell tales of the unforgettable moments waiting for you at Sun 'n' Sand. Get a sneak peek into the fun-filled memories created here. Scroll, smile, and get ready to make your own stories!</p>
-                        <GalleryPagePhotoGallery />
+                        <GalleryPagePhotoGallery data={gallery} />
                     </ScrollCardAnimation>
                 </section>
             </div>
