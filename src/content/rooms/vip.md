@@ -4,7 +4,7 @@ meta_title: "Sophisticated VIP Rooms with Breathtaking Lake Views at Sun 'n' San
 description: "Indulge in luxurious accommodation with our VIP Rooms, overlooking picturesque Lake Malawi. Experience refreshing lake breezes and breathtaking views."
 image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/vipRooms/front-view-of-vip-rooms.jpg?t=2024-02-02T20%3A47%3A55.662Z"
 guests: "3 Guests"
-beds: "1 Double, 1 Twin"
+beds: "2 Double & 1 Foldable Bed"
 room_size: "140 m2"
 room_info: "Overlooking the picturesque Lake Malawi are our sophisticated VIP Rooms, offering luxurious accommodation, a refreshing lake breeze, and breathtaking views. These rooms can accommodate a maximum of 3 guests."
 amenities:
@@ -18,21 +18,19 @@ amenities:
     "Toiletries",
     "Complementary Beverages",
   ]
-price: "$150"
-general_information: [
+price: "MWK 185,000"
+general_information:
+  [
     "Check-In:",
-    "14:00-22:00",
+    "12:00",
     "Check-Out:",
-    "10:00",
+    "12:00",
     "Services:",
-    "Car Park, Lounge & Continental Breakfast Cuisine",
-    # "Food & Drink:",
-    # "Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-    # ",
+    "Car Park, Lounge, Lake view & Continental Breakfast Cuisine",
     "Currency:",
     "The Malawi Kwacha",
-    "Extra Beds & Blankets:",
-    "Feel free to inquire about extra blankets or beds at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
+    "Extra Mattresses & Blankets:",
+    "Feel free to inquire about extra blankets or mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
   ]
 # Pictures
 pictures:

@@ -4,7 +4,7 @@ meta_title: "Modern Comfort in Self-Catering Chalets at Sun 'n' Sand Holiday Res
 description: "Discover the charm of our Self-Catering Chalets at Sun 'n' Sand Resort. A 'home away from home' experience with modern flair, perfect for families to unwind. Embrace the cozy, family-friendly atmosphere along the breathtaking shores of Lake Malawi in Mangochi."
 image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/selfCateringChalets/front-view-of-chalet-with-chairs-outside.jpg?t=2024-02-02T20%3A16%3A56.075Z"
 guests: "8 Guests"
-beds: "2 Double, 4 Twin"
+beds: "4 Double"
 room_size: "125 m2"
 room_info: "Step into the charm of our Self-Catering Chalets – the pioneers of comfort at Sun 'n' Sand Holiday Resort! Freshly renovated with a modern flair, these chalets offer a cozy, 'home away from home' experience for our guests. Each chalet comprises four ensuite individual rooms, providing a perfect setting for families to unwind. Embrace the modern decor and family-friendly atmosphere in these 14 self-catering chalets. Make memories that last at our resort in Mangochi, along the breathtaking shores of Lake Malawi. Your homey retreat awaits!"
 amenities:
@@ -15,27 +15,23 @@ amenities:
     "Fan",
     "Mini Fridge",
     "Telephone",
-    "Toiletries",
-    "Complementary Beverages",
     "Kitchen",
     "Kitchen Accessories",
     "BBQ Facility",
   ]
-price: "$200"
-general_information: [
+price: "MWK 400,000"
+general_information:
+  [
     "Check-In:",
-    "14:00-22:00",
+    "12:00",
     "Check-Out:",
-    "10:00",
+    "12:00",
     "Services:",
-    "Car Park, Lounge, Dining Space, Pool Entrance, & Continental Breakfast Cuisine",
-    # "Food & Drink:",
-    # "Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-    # ",
+    "Car Park, Lounge, Dining Space",
     "Currency:",
     "The Malawi Kwacha",
-    "Extra Beds & Blankets:",
-    "Feel free to inquire about extra blankets or beds at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
+    "Extra Mattresses & Blankets:",
+    "Feel free to inquire about extra blankets, mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
   ]
 # Pictures
 pictures:

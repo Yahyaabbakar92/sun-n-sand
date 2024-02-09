@@ -56,6 +56,8 @@ const Contact = async () => {
                   alt="view of beach and lake at sunset"
                 />
                 <p className="text-lg leading-8 mt-8 italic text-fontColor">We aim to respond to emails within 24 hours. Please check your spam folder if our response is not found in your inbox. For conference, group, or wedding bookings, email our reservations team directly using the listed contact details.</p>
+                <br />
+                <p className="text-lg leading-8 mt-8 italic text-fontColor">* For exclusive promotions and events, please specify as additional information.</p>
               </div>
               <ContactForm />
             </div>

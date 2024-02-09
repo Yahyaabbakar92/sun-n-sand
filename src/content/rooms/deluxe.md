@@ -20,21 +20,18 @@ amenities:
     "Toiletries",
     "Complementary Beverages",
   ]
-price: "$100"
+price: "MWK 145,000"
 general_information: [
     "Check-In:",
-    "14:00-22:00",
+    "12:00",
     "Check-Out:",
-    "10:00",
+    "12:00",
     "Services:",
-    "Car Park & Continental Breakfast Cuisine",
-    # "Food & Drink:",
-    # "Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-    # ",
+    "Car Park & Continental Breakfast Cuisine, Swimming Pool Entrance",
     "Currency:",
     "The Malawi Kwacha",
-    "Extra Beds & Blankets:",
-    "Feel free to inquire about extra blankets or beds at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
+    "Extra Mattresses & Blankets:",
+    "Feel free to inquire about extra blankets or mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
   ]
 # Pictures
 pictures:

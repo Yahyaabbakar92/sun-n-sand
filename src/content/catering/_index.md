@@ -8,7 +8,7 @@ alt: "people seated at restaurant at night"
 # Restaurant
 restaurant:
   title: "La Mirage Restaurant"
-  content: "Indulge in a culinary journey at La Mirage Restaurant. Our diverse menu features Western and traditional African cuisine, fast food, and delightful room service. Enjoy a continental breakfast buffet with stunning views of Lake Malawi. Experience exquisite dining amidst the sounds of waves and birds at Sun 'n' Sand Resort."
+  content: "Indulge in a culinary journey at La Mirage Restaurant. Our diverse menu features Continental, Traditional African cuisine, and Cuisine from the East. Enjoy a continental breakfast buffet with stunning views of Lake Malawi. Experience exquisite dining amidst the sounds of waves and birds at Sun 'n' Sand Resort."
   images:
     - id: 1
       src: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/restaurantAndBarsPage/laMirageRestaurant/plate-of-fish-with-veggies.jpg?t=2024-02-02T19%3A16%3A21.994Z"

@@ -6,7 +6,7 @@ image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images
 alt: "swimming pool view"
 video: "https://joy1.videvo.net/videvo_files/video/free/video0467/large_watermarked/_import_61516692993d77.04238324_preview.mp4"
 content: "Sun 'n' Sand presents a plethora of engaging activities, from delightful camel rides and scenic boat trips to exhilarating water slides crafted for kids. Our resort is a hub of fun-filled experiences, ensuring unforgettable moments for every family member. Dive into a world of excitement where each activity is tailored for maximum enjoyment, creating lasting memories that resonate with the charm of Sun 'n' Sand's vibrant ambiance. Explore the diverse array of offerings, promising not just recreation but an immersive journey of joy and adventure for the entire family."
-info: "Explore exciting activities at our resort, from outdoor games like table tennis and beach volleyball to kayaking and boat rides. As the sun sets, immerse yourself in traditional dances, bonfires, and a state-of-the-art cocktail party venue. Our capable management team can arrange memorable parties and discos. Alternatively, relax by the sounds of Lake Malawi at our newly opened lakeside cafe in the evening."
+info: "Explore exciting activities at our resort, from outdoor games like pool and beach volleyball to kayaking and boat rides. As the sun sets, immerse yourself in traditional dances, bonfires, and a state-of-the-art cocktail party venue. Our capable management team can arrange memorable parties and discos. Alternatively, relax by the sounds of Lake Malawi at our newly opened lakeside cafe in the evening."
 
 # Pool
 pool:
