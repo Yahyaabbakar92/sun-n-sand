@@ -31,6 +31,7 @@ general_information:
     "The Malawi Kwacha",
     "Extra Mattresses & Blankets:",
     "Feel free to inquire about extra blankets or mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
+    "Complimentary breakfast is free for 2 adults, and MWK 30,000 per head for every child",
   ]
 # Pictures
 pictures:
