@@ -13,13 +13,13 @@ amenities:
     "Air Condition",
     "WiFi Service",
     "Fan",
-    "Mini Fridge",
+    "Fridge/Freezer",
     "Telephone",
     "Kitchen",
     "Kitchen Accessories",
     "BBQ Facility",
   ]
-price: "MWK 400,000"
+price: "Get Quote"
 general_information:
   [
     "Check-In:",
@@ -28,8 +28,6 @@ general_information:
     "12:00",
     "Services:",
     "Car Park, Lounge, Dining Space",
-    "Currency:",
-    "The Malawi Kwacha",
     "Extra Mattresses & Blankets:",
     "Feel free to inquire about extra blankets, mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
   ]

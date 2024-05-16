@@ -23,11 +23,11 @@ const RestaurantsBars = () => {
                 <section>
                     <div className="container text-center relative">
                         <ImageFallback
-                            src={frontmatter.image}
+                            src="https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/restaurantAndBarsPage/laMirageRestaurant/restaurant.jpg?t=2024-05-16T13%3A08%3A10.296Z"
                             height={500}
                             width={500}
                             alt={alt}
-                            className="w-full rounded-2xl opacity-40"
+                            className="w-full rounded-2xl opacity-60"
                         />
                         <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-fontColor">{humanize(title)}</h1>
                     </div>

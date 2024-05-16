@@ -19,7 +19,7 @@ const RoomPageCard = ({ data }: { data: RoomDetails }) => {
                     )}
                 </div>
                 <div className="basis-1/2">
-                    <p className="mb-2 text-fontColorHover"><span className="font-bold text-fontColor">{price}</span> / Night</p>
+                    {/* <p className="mb-2 text-fontColorHover"><span className="font-bold text-fontColor">{price}</span> / Night</p> */}
                     <h4 className="mb-3 text-fontColor hover:text-fontColorHover">
                         <Link href={`/rooms/${data.slug}`}>
                             <span className="border-b-4 border-accentColor hover:border-accentColorHover">{title}</span>

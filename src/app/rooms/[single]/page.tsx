@@ -13,7 +13,7 @@ import RoomPageHeaderImages from "@/layouts/RoomPageHeaderImages";
 const { rooms_folder } = config.settings;
 
 // remove dynamicParams
-export const dynamicParams = false;
+// export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: () => { single: string }[] = () => {
@@ -87,7 +87,7 @@ const Room = ({ params }: { params: { single: string } }) => {
                                             <FaMoneyBill className="w-12 h-16 text-accentColor" />
                                             <div>
                                                 <p className="text-lg italic text-right text-fontColorHover">Room Price</p>
-                                                <p className="font-bold text-right text-lg text-fontColor">{price} / Night</p>
+                                                <p className="font-bold text-right text-lg text-fontColor">{price}</p>
                                             </div>
                                         </div>
                                     </div>

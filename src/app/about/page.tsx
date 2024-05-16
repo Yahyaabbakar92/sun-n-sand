@@ -28,7 +28,7 @@ const About = () => {
               {image && (
                 <ImageFallback
                   className="mx-auto mb-6 opacity-40"
-                  src={image}
+                  src="https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/aboutPage/about.jpg?t=2024-05-16T13%3A02%3A43.116Z"
                   width={1500}
                   height={1500}
                   alt={alt}

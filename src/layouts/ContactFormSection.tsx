@@ -443,7 +443,7 @@ export default function ContactForm() {
                                     ></path>
                                 </svg>
                             ) : (
-                                'Confirm Your Stay'
+                                'Submit Request'
                             )}
                         </button>
                     </form>

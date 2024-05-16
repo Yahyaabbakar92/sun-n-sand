@@ -5,7 +5,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import { Events } from "@/types";
 
 // remove dynamicParams
-export const dynamicParams = false;
+// export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: () => { single?: string }[] = () => {

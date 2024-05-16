@@ -2,7 +2,7 @@
 title: Deluxe Rooms 
 meta_title: "Deluxe Rooms at Sun 'n' Sand Resort in Mangochi, Malawi: Modern Comfort and Tranquility"
 description: "Indulge in charm at our Deluxe rooms. 250 havens of modern comfort, elegant decor, and lush garden views. Unwind by Lake Malawi, embrace family joy in Mangochi's beauty at Sun 'n' Sand Resort."
-image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/deluxeRooms/outside-side-view-of-deluxe-rooms.jpg?t=2024-02-02T14%3A51%3A27.880Z"
+image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/roomsPage/deluxeRooms/deluxe.jpg?t=2024-05-16T13%3A42%3A47.222Z"
 guests: "2 Guests"
 beds: "1 Double or 2 Twin"
 room_size: "120 m2"
@@ -20,7 +20,7 @@ amenities:
     "Toiletries",
     "Complementary Beverages",
   ]
-price: "MWK 145,000"
+price: "Get Quote"
 general_information: [
     "Check-In:",
     "12:00",
@@ -28,8 +28,6 @@ general_information: [
     "12:00",
     "Services:",
     "Car Park & Continental Breakfast Cuisine, Swimming Pool Entrance",
-    "Currency:",
-    "The Malawi Kwacha",
     "Extra Mattresses & Blankets:",
     "Feel free to inquire about extra blankets or mattresses at during reservations or at the reception. We're here to ensure your stay is tailored to your preferences, and our team will be delighted to assist with any additional bedding needs. Your comfort is our priority, and we welcome your requests to make your experience with us truly enjoyable.",
     "Additional Information:",

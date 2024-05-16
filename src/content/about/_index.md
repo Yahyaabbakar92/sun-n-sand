@@ -3,11 +3,11 @@ title: "Our Story"
 meta_title: "Sun 'n' Sand Holiday Resort | Premier Hospitality in Mangochi, Malawi"
 image: "https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/aboutPage/man_rowing_canoe_in_lake_at_sunset.jpg?t=2024-01-08T12%3A56%3A55.177Z"
 alt: "man rowing canoe in lake at sunset"
-description: "Discover affordable luxury at Sun 'n' Sand Holiday Resort in the heart of Mangochi, Malawi. Established in 1992, our beachfront property offers 282 spacious rooms, an Olympic-sized pool, and stunning views of Lake Malawi. Immerse yourself in genuine hospitality and tranquil ambiance. Whether for a getaway or event, join our story of affordable luxury by the southern lakeshore."
+description: "Discover affordable luxury at Sun 'n' Sand Holiday Resort in the heart of Mangochi, Malawi. Established in 1992, our beachfront property offers 250+ spacious rooms, an Olympic-sized pool, and stunning views of Lake Malawi. Immerse yourself in genuine hospitality and tranquil ambiance. Whether for a getaway or event, join our story of affordable luxury by the southern lakeshore."
 draft: false
 overview: "Step into the realm of affordable luxury and premier hospitality at Sun 'n' Sand Holiday Resort, nestled in the vibrant heart of Mangochi, Malawi. Since its inception in 1992 by the visionary Mr. Abdul Rashid Suleman, the Chairman of Siku Group Of Companies, our resort has transformed into a dazzling gem on the southern lakeshore.
 
-Discover a sanctuary of pure indulgence within our sophisticated enclave, adorned with lavish details and an expansive Olympic-sized swimming pool. Sun 'n' Sand offers the ideal backdrop for both leisure getaways and memorable events. Our beachfront haven features 282 well-appointed rooms, including 34 VIP rooms, 14 Self Catering Chalets, and 194 Deluxe rooms, each exuding a blend of modern luxury and traditional comfort.
+Discover a sanctuary of pure indulgence within our sophisticated enclave, adorned with lavish details and an expansive Olympic-sized swimming pool. Sun 'n' Sand offers the ideal backdrop for both leisure getaways and memorable events. Our beachfront haven features 250+ well-appointed rooms, including 34 VIP rooms, 14 Self Catering Chalets, and 194 Deluxe rooms, each exuding a blend of modern luxury and traditional comfort.
 
 Immerse yourself in the serenity of our surroundings, where a 700-meter golden sand beach and breathtaking views of southern Lake Malawi create an idyllic escape. Embark on a journey that began with six self-catering cottages and has blossomed into a dedicated team of 350 individuals, committed to ensuring your stay is nothing short of extraordinary. Join the celebration of affordable luxury and genuine hospitality at Sun 'n' Sand, where every moment is an invitation to be part of our captivating story."
 
@@ -36,8 +36,7 @@ stories:
     alt: "a resort room with a palm tree"
     content: "Step into a world of comfort and style with our meticulously designed rooms at Sun 'n' Sand. Each space is a testament to our dedication to providing an exceptional stay."
     bulletpoints:
-      - "Immerse yourself in traditional comfort with 282 spacious rooms."
-      - "Choose from 34 VIP rooms, 14 Self Catering Chalets, and 194 Deluxe rooms."
+      - "Immerse yourself in traditional comfort with 250+ spacious rooms."
       - "Dive into luxury with our Olympic-sized swimming pool."
       - "Whether it's a getaway or an event, our beachfront property creates the perfect setting."
     button:
@@ -46,6 +45,6 @@ stories:
       link: "/rooms"
 ---
 
-Step into affordable luxury at Sun 'n' Sand Holiday Resort, nestled in the heart of Mangochi, Malawi, since its inception in 1992 by visionary Abdul Rashid Suleman, Chairman of Siku Group Of Companies. Our resort, a dazzling gem on the southern lakeshore, offers premier hospitality with 282 rooms, including VIP suites and Self Catering Chalets, blending modern luxury and traditional comfort around an Olympic-sized pool.
+Step into affordable luxury at Sun 'n' Sand Holiday Resort, nestled in the heart of Mangochi, Malawi, since its inception in 1992 by visionary Abdul Rashid Suleman, Chairman of Siku Group Of Companies. Our resort, a dazzling gem on the southern lakeshore, offers premier hospitality with 250+ rooms, including VIP suites and Self Catering Chalets, blending modern luxury and traditional comfort around an Olympic-sized pool.
 
 Explore our sanctuary of pure indulgence, boasting lavish details against the backdrop of a 700-meter golden sand beach and breathtaking views of Lake Malawi. From six self-catering cottages to a team of 350 committed individuals, Sun 'n' Sand invites you to join a celebration of affordable luxury and genuine hospitality. Every moment at our resort is an opportunity to become part of our captivating story, ensuring your stay is nothing short of extraordinary.

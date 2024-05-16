@@ -14,6 +14,7 @@ import { Services } from "@/types";
 import Link from "next/link";
 import ScrollCardAnimation from "@/components/ScrollCardAnimation";
 import HomePagePhotoGallery from "@/components/HomePagePhotoGallery";
+import Image from "next/image";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -40,58 +41,21 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="pt-14 pb-6 relative">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url('${banner.image3}')`, opacity: 0.7 }}></div>
-        <div className="container relative z-10">
-          <div className="lg:flex justify-between">
-            {/* Banner Content and Button on the Left */}
-            <div className="mb-16 text-center lg:col-5 lg:order-1 text-white">
-              <h1 className="mb-8 text-fontColor">Lakeview Serenity. <span className="bg-gradient-to-r from-primaryColor to-accentColor bg-clip-text text-transparent">Sun 'n' Sand</span> Resort</h1>
-              <p className="text-lg mb-16 leading-10 text-fontColor font-bold" dangerouslySetInnerHTML={markdownify(banner.content ?? "")} />
-
-              {/* Banner Image on the Left */}
-              <Link href="/rooms">
-                <div className="relative transform transition-all duration-300 hover:scale-105">
-                  {banner.image && (
-                    <ImageFallback
-                      src={banner.image}
-                      className="mx-auto lg:h-96 rounded-xl mb-8"
-                      width={1500}
-                      height={1500}
-                      alt="A room surrounded by palm trees"
-                      priority
-                    />
-                  )}
-
-                  {/* Banner Button on the Left */}
-                  {banner.button!.enable && (
-                    <a className="btn btn-primary btn-sm absolute bottom-8 left-1/2 transform -translate-x-1/2" href={banner.button!.link}>
-                      {banner.button!.label}
-                    </a>
-                  )}
-                </div>
-              </Link>
-            </div>
-
-            {/* Banner Image on the Right */}
-            {banner.image2 && (
-              <div className="relative col-12 lg:col-7 lg:order-2">
-                <ImageFallback
-                  src={banner.image2}
-                  className="mx-auto rounded-xl"
-                  width="560"
-                  height="560"
-                  alt="A girl smiling holding a drink next to a camel on the beach"
-                  priority
-                />
-              </div>
-            )}
-          </div>
+      {/* Hero Section */}
+      <section className="pt-14 md:pb-0 pb-6 relative">
+        <div className="absolute inset-0 bg-cover md:h-[620px] lg:h-[670px] bg-center" style={{ backgroundImage: `url('${banner.image3}')`, opacity: 0.5 }}></div>
+        <div className="container relative z-10 md:mb-10 mb-16 text-center text-white flex flex-col justify-center items-center h-full">
+          <h1 className="lg:mb-4 pt-20 md:pt-32 lg:pt-24 text-fontColor text-5xl md:text-6xl lg:text-8xl"><span className="bg-gradient-to-r from-primaryColor to-accentColor bg-clip-text text-transparent">Sun 'n' Sand</span> Resort. Lakeview Serenity.</h1>
+          <p className="mb-16 leading-relaxed text-fontColor text-2xl md:text-3xl lg:leading-10 lg:text-4xl pt-10 font-semibold" dangerouslySetInnerHTML={markdownify(banner.content ?? "")} />
+          <Link href="/rooms" className="btn btn-primary text-lg md:text-xl">
+            Explore Rooms
+          </Link>
         </div>
       </section>
 
+
       {/* About Us Section */}
-      <section className="px-4 py-10 bg-gradient-to-b from-sectionBackgroundColor to-white">
+      <section className="px-4 pt-32 md:pt-36 lg:pt-52 pb-10 bg-gradient-to-b from-sectionBackgroundColor to-white">
         <div className="container text-center">
           {/* <ScrollCardAnimation> */}
           <div className="rounded-2xl">
@@ -99,6 +63,20 @@ const Home = () => {
             <p className="text-lg leading-10 text-fontColor" dangerouslySetInnerHTML={markdownify(about.content ?? "")} />
           </div>
           {/* </ScrollCardAnimation> */}
+        </div>
+      </section>
+
+      {/* Fifi Water world section */}
+      <section className="px-4 pt-32 md:pt-36 lg:pt-52 pb-10 bg-gradient-to-b from-sectionBackgroundColor to-white">
+        <div className="container text-center">
+          <Image
+            className="mx-auto mb-6 rounded-xl"
+            src="https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/fifi.jpg?t=2024-05-16T12%3A48%3A13.295Z"
+            width={1500}
+            height={1500}
+            alt="Fifi water world"
+          />
+          <p className="text-2xl pt-8 leading-10 text-fontColor">Come Explore Malawi's Largest children's water park</p>
         </div>
       </section>
 

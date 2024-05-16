@@ -4,6 +4,7 @@ import RecreationActivitiesPics from "@/layouts/RecreationActivitiesPics";
 import { getListPage } from "@/lib/contentParser";
 import { humanize } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
+import Image from "next/image";
 
 const RecreationActivities = () => {
     const recreation = getListPage("recreation/_index.md");
@@ -33,7 +34,14 @@ const RecreationActivities = () => {
                 <div className="container mt-8">
                     <ScrollCardAnimation>
                         <p className="my-12 text-lg leading-10 text-fontColor">{content}</p>
-                        <video src={video} width='100%' className="rounded-2xl" />
+                        {/* <video src={video} width='100%' className="rounded-2xl" /> */}
+                        <Image
+                            className="mx-auto mb-6 rounded-xl"
+                            src="https://gspqgpzyhdhinyvtyugx.supabase.co/storage/v1/object/public/images/homePage/fifi.jpg?t=2024-05-16T12%3A48%3A13.295Z"
+                            width={1500}
+                            height={1500}
+                            alt="Fifi water world"
+                        />
                         <p className="my-12 text-lg leading-10 text-fontColor">{info}</p>
                         <div className="rounded-lg p-6 grid grid-cols-1 gap-4 md:grid-cols-2 pb-10">
                             {/* Pool */}

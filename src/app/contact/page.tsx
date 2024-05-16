@@ -46,7 +46,7 @@ const Contact = async () => {
                   <li className="flex gap-2 items-center text-lg text-fontColor"><FaMapLocation className="text-accentColor" /> Address Along Lake Malawi Beach, Mangochi</li>
                   <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaPhone className="text-accentColor" /> Telephone: +265 996 492 399</li>
                   <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><MdEmail className="text-accentColor" /> E-mail: gm@sunnsandmw.com</li>
-                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaClock className="text-accentColor" /> Office Hours: Monday – Sunday, 08:00 – 17:00</li>
+                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaClock className="text-accentColor" /> Office Hours: 24/7</li>
                 </ul>
                 <Image
                   className="mb-6 mt-8 rounded-lg"

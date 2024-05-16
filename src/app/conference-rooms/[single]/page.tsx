@@ -8,7 +8,7 @@ import { ConfRoomDetails } from "@/types";
 import Link from "next/link";
 
 // remove dynamicParams
-export const dynamicParams = false;
+// export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: () => { single?: string }[] = () => {
@@ -61,8 +61,8 @@ const ConferenceSingle = ({ params }: { params: { single: string } }) => {
                             <ImageFallback
                                 src={image}
                                 className="mx-auto w-full rounded"
-                                width={1000}
-                                height={1000}
+                                width={500}
+                                height={500}
                                 alt={title}
                             />
                         </div>
