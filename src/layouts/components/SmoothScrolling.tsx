@@ -1,5 +1,5 @@
 "use client";
-import { ReactLenis } from "@studio-freight/react-lenis";
+import { ReactLenis } from '@studio-freight/react-lenis'
 
 const SmoothScrolling = ({
     children
@@ -7,7 +7,7 @@ const SmoothScrolling = ({
     children: React.ReactNode
 }) => {
     return (
-        <ReactLenis root options={{ lerp: 0.3, duration: 1.5, smoothTouch: true }}>
+        <ReactLenis root options={{ lerp: 0.3, duration: 1.5, smoothWheel: true }}>
             {children}
         </ReactLenis>
     );
