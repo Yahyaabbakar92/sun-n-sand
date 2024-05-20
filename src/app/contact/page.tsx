@@ -3,6 +3,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 import { FaMapLocation } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaClock } from "react-icons/fa";
 import Image from "next/image";
@@ -44,7 +45,9 @@ const Contact = async () => {
                 <h2 className="h2 text-fontColor">Contact Us</h2>
                 <ul className="mt-6 ">
                   <li className="flex gap-2 items-center text-lg text-fontColor"><FaMapLocation className="text-accentColor" /> Address Along Lake Malawi Beach, Mangochi</li>
-                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaPhone className="text-accentColor" /> Telephone: +265 996 492 399</li>
+                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaWhatsapp className="text-accentColor" /> Whatsapp: +265 888 835 986</li>
+                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaPhone className="text-accentColor" /> / <FaWhatsapp className="text-accentColor" /> Telephone / Whatsapp: +265 999 575 610</li>
+                  <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaPhone className="text-accentColor" /> / <FaWhatsapp className="text-accentColor" /> Telephone / Whatsapp: +265 999 220 786</li>
                   <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><MdEmail className="text-accentColor" /> E-mail: gm@sunnsandmw.com</li>
                   <li className="flex gap-2 items-center text-lg text-fontColor mt-4"><FaClock className="text-accentColor" /> Office Hours: 24/7</li>
                 </ul>
